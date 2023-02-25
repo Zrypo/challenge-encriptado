@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href='css/danger.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/751a4449e2.js" crossorigin="anonymous"></script>    
+    <title>Challenge</title>
+</head>
+
+<body class="nya">    
+<div class="contenedor">
+    <section class="logo">
+        <img src="images/Vector@2x.svg" alt="Logo alura">
+    </section>
+    
+<section class="componente">
+    <div class="text">
+        <textarea class="text-input"  name="name" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="inf">
+                <i class="gg-danger"></i>                
+                <h6 class="minus">Solo letras minúsculas y sin acentos</h6>
+            </div>
+    </div>
+
+    <div class="btn">
+        <button class="btn-encriptar" type="button" onclick="btnencriptar()">Encriptar</button>
+        <button class="btn-desencriptar" type="button" onclick="btndesencriptar()">Desencriptar</button>
+    </div>
+</section>
+    
+    <section class="componente2">
+        <div class="text-2">
+            <textarea class="text-area" name="name" cols="30" rows="10" disabled></textarea>
+            <h2 class="msj-error">Ningún mensaje fue encontrado</h2>
+            <p class="ingrese-text">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <div class="back">
+            <textarea class="text-back" name="name" cols="30" rows="10" disabled></textarea>
+            <button class="btn-copiar" type="button">Copiar</button>
+        </div>
+    </section>
+</div>    
+
+<footer class="redes">
+    <a href="https://www.instagram.com/mr_huesos/" target="_blank" class="fa-brands fa-instagram"></a>
+    <a href="https://github.com/Zrypo" target="_blank" class="fa-brands fa-github"></a>
+    <a href="https://www.linkedin.com/in/david-rey-graphic/" target="_blank" class="fa-brands fa-linkedin"></a>
+</footer>
+
+</body>
+
+<script src="archivo.js">
+
+</script>
+
+
+</html>
